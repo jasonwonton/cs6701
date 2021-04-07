@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+.condiv
+{
+  padding:25px 25px 150px;
+  color: white;
+  flex:var(--condiv-flex);
+  align-items:center;
+  text-align:center;
+  background-color: rgb(255, 77, 77); 
+}
+
+.home
+{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  background-color: rgb(255, 77, 77); 
+  
+}
+.name{
+  font-size:50px;
+  padding:20px 10px 10px 10px;
+  position: relative;
+  top: 40px;
+  color:white;
+  
+}
+.rowC{
+  font-size:20px;
+  display:flex; 
+  flex-direction:row;
+  align-items:center;
+  text-align:center;
+  padding: 10px 50px;
+}
+.subheading{
+  color: white;
+  padding:10px 100px;
+  position: relative;
+  top: 40px;
+}
+a {
+  color: #FFF;
+  padding: 10px 40px;
+  position: relative;
+}
+a:hover {
+   color: #fcba03
+}
+.posts{
+  font-size:20px;
+}
